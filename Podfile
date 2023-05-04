@@ -1,9 +1,11 @@
 source 'https://github.com/artsy/Specs.git'
 source 'https://cdn.cocoapods.org/'
 
+pod 'Google-Mobile-Ads-SDK'
+
 plugin 'cocoapods-keys', {
   :project => 'Eidolon',
-  :keys => [
+  :keys => [pod install --repo-update
     'ArtsyAPIClientSecret',
     'ArtsyAPIClientKey',
     'HockeyProductionSecret',
